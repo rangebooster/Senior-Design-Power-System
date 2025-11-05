@@ -695,156 +695,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -1314,34 +1164,43 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Thermistor_US"
+		(symbol "Diode:BAT54J"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "TH"
-				(at 2.54 1.27 90)
+			(property "Reference" "D"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Thermistor_US"
-				(at -2.54 0 90)
+			(property "Value" "BAT54J"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Diode_SMD:D_SOD-323F"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1350,7 +1209,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Description" "30V 200mA Schottky diode, SOD-323F"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1359,7 +1218,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Thermistor, temperature dependent resistor, US symbol"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1368,7 +1227,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res thermistor"
+			(property "ki_fp_filters" "D*SOD?323F*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1377,22 +1236,13 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Thermistor_US_0_1"
+			(symbol "BAT54J_0_1"
 				(polyline
 					(pts
-						(xy -1.905 2.54) (xy -1.905 1.27) (xy 1.905 -1.27)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1401,10 +1251,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 0 2.54)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1413,55 +1263,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy 1.905 -2.54)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -1472,11 +1274,11 @@
 					)
 				)
 			)
-			(symbol "Thermistor_US_1_1"
+			(symbol "BAT54J_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1492,9 +1294,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1512,18 +1314,15 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET:BUK9M85-60EX"
 			(pin_names
-				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1531,8 +1330,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "BUK9M85-60EX"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1540,25 +1339,28 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "Package_TO_SOT_SMD:LFPAK33"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BUK9M85-60E.pdf"
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Description" "12.8A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 73mOhm Ron, 4.4nC Qqd, -55 to 175 °C, LFPAK33"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1567,34 +1369,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
+			(property "ki_keywords" "Power MOSFET N-MOS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1603,7 +1378,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "NMOS_0_1"
+			(property "ki_fp_filters" "LFPAK33*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BUK9M85-60EX_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1770,8 +1554,8 @@
 					)
 				)
 			)
-			(symbol "NMOS_1_1"
-				(pin input line
+			(symbol "BUK9M85-60EX_1_1"
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "G"
@@ -1781,7 +1565,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1799,6 +1583,24 @@
 							)
 						)
 					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "1"
 						(effects
 							(font
@@ -1810,6 +1612,26 @@
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
 					(name "S"
 						(effects
 							(font
@@ -1828,18 +1650,15 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Simulation_SPICE:PMOS"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_FET:Si7617DN"
 			(pin_names
-				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1847,8 +1666,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "Si7617DN"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1856,25 +1675,28 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/65164/si7617dn.pdf"
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/source/gate"
+			(property "Description" "-35A Id, -30V Vds, 0.0123 Ohm Ron, PowerPAK-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1883,34 +1705,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "PMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET simulation"
+			(property "ki_keywords" "P-Channel MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1919,7 +1714,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "PMOS_0_1"
+			(property "ki_fp_filters" "Vishay*PowerPAK*1212*Single*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Si7617DN_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -2086,7 +1890,7 @@
 					)
 				)
 			)
-			(symbol "PMOS_1_1"
+			(symbol "Si7617DN_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2097,7 +1901,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2115,6 +1919,24 @@
 							)
 						)
 					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "1"
 						(effects
 							(font
@@ -2126,6 +1948,26 @@
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
 					(name "S"
 						(effects
 							(font
@@ -2682,6 +2524,12 @@
 		(uuid "3d3b4164-ca50-44d0-a50c-833727a1978e")
 	)
 	(junction
+		(at 162.56 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f97cc72-728c-477f-8a72-e96c60b26401")
+	)
+	(junction
 		(at 189.23 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2706,6 +2554,12 @@
 		(uuid "4676998d-7850-4ccd-a99a-c0ea008972a1")
 	)
 	(junction
+		(at 162.56 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b57efd3-6f6d-4bc0-ad91-499d611c4526")
+	)
+	(junction
 		(at 171.45 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2728,12 +2582,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ec7143c-c8ab-4d0e-8bc0-29eb8a6201d5")
-	)
-	(junction
-		(at 162.56 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70daa0ac-bd2e-4825-b8a4-64c6d923b066")
 	)
 	(junction
 		(at 64.77 66.04)
@@ -2782,12 +2630,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90c66a15-23b4-433f-bb1b-704c6edbbb6b")
-	)
-	(junction
-		(at 162.56 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90d62772-1618-4ae0-8e70-c78a4cd59c40")
 	)
 	(junction
 		(at 67.31 66.04)
@@ -3312,16 +3154,6 @@
 			(type default)
 		)
 		(uuid "37fd8b8c-b6dc-4331-bca4-4cf6744ec9fc")
-	)
-	(wire
-		(pts
-			(xy 162.56 87.63) (xy 177.8 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39ecf4d0-4c4a-492b-95cd-d6c07cf6e758")
 	)
 	(wire
 		(pts
@@ -3872,6 +3704,16 @@
 			(type default)
 		)
 		(uuid "8ace5d18-26dd-4a2f-b67b-3374a3baa7eb")
+	)
+	(wire
+		(pts
+			(xy 162.56 87.63) (xy 177.8 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c5f9e4e-c117-47fe-92e8-b96a77adde48")
 	)
 	(wire
 		(pts
@@ -4573,16 +4415,6 @@
 		)
 		(uuid "fedc05f9-a944-4200-9627-9a73ed30c7f7")
 	)
-	(wire
-		(pts
-			(xy 87.63 154.94) (xy 87.63 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffebe97c-ef2d-46ee-8b0c-31392831416e")
-	)
 	(global_label "System"
 		(shape input)
 		(at 234.95 55.88 0)
@@ -4601,6 +4433,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Thermistor"
+		(shape input)
+		(at 87.63 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20322c6e-3e4e-404a-a216-9304bd2c70a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.6663 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4721,7 +4575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 262.5852 95.25 0)
 			(effects
 				(font
@@ -4764,76 +4618,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 162.56 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "015d5f3e-bc58-4cbe-9e0e-ece979c6e05e")
-		(property "Reference" "D1"
-			(at 165.1 89.8524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D_Schottky"
-			(at 165.1 92.3924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 162.56 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "96158591-d469-4a06-931f-a2cd096793b3")
-		)
-		(pin "1"
-			(uuid "e66c6712-46f8-4a4e-94db-a7bd6ef6a17d")
-		)
-		(instances
-			(project ""
-				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 121.92 64.77 90)
 		(unit 1)
@@ -4858,7 +4642,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 125.73 63.8048 0)
 			(effects
 				(font
@@ -4901,105 +4685,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 73.66 58.42 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0526d7bd-768f-4649-8272-3ce48fcdcc5d")
-		(property "Reference" "Q2"
-			(at 73.66 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 73.66 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 60.96 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 73.66 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 56.515 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 54.61 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 58.42 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f1d777d3-ba52-4783-98c0-3ddab55ff929")
-		)
-		(pin "1"
-			(uuid "a4a52a80-23ba-4a73-9ad1-542a4d07081e")
-		)
-		(pin "2"
-			(uuid "3bc52757-9ebb-419a-a05f-920ca786bd1e")
-		)
-		(instances
-			(project ""
-				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 82.55 123.19 270)
 		(unit 1)
@@ -5024,7 +4709,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 82.55 121.412 90)
 			(effects
 				(font
@@ -5067,6 +4752,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:Si7617DN")
+		(at 73.66 58.42 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "066e2e59-5618-4f78-82ee-e873ff00af5a")
+		(property "Reference" "Q2"
+			(at 73.66 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Si7617DN"
+			(at 73.66 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+			(at 71.755 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/65164/si7617dn.pdf"
+			(at 69.85 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-35A Id, -30V Vds, 0.0123 Ohm Ron, PowerPAK-8"
+			(at 73.66 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1ee3e39c-d227-4012-b505-d0f850513831")
+		)
+		(pin "5"
+			(uuid "9d87dcbd-372f-47eb-86b9-1031f37531cd")
+		)
+		(pin "1"
+			(uuid "17e165db-c3b5-4447-8003-07c5700a0bb5")
+		)
+		(pin "2"
+			(uuid "b994cc35-96fc-491c-becd-96669cfd0c48")
+		)
+		(pin "3"
+			(uuid "63fc5d08-3a4e-4cb4-920f-d372bd9b0e58")
+		)
+		(instances
+			(project ""
+				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 204.47 87.63 90)
 		(unit 1)
@@ -5092,7 +4858,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Neosid_SM-PIC0512H"
 			(at 204.47 87.63 0)
 			(effects
 				(font
@@ -5226,7 +4992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 60.452 62.23 90)
 			(effects
 				(font
@@ -5263,6 +5029,88 @@
 			(project ""
 				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BUK9M85-60EX")
+		(at 186.69 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "123bfd9e-38b7-49ff-b970-911b70c5925a")
+		(property "Reference" "Q4"
+			(at 193.04 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BUK9M85-60EX"
+			(at 193.04 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:LFPAK33"
+			(at 191.77 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BUK9M85-60E.pdf"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "12.8A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 73mOhm Ron, 4.4nC Qqd, -55 to 175 °C, LFPAK33"
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fae10f8a-3a76-4b05-b8dd-e6e809e0edac")
+		)
+		(pin "2"
+			(uuid "fe06b342-0cfd-4edb-88aa-88d57e2dd0c1")
+		)
+		(pin "3"
+			(uuid "c045aa2e-cafd-4668-a250-da5ae94817be")
+		)
+		(pin "5"
+			(uuid "0826d471-b718-44ca-9c85-b5b6e83ef10f")
+		)
+		(pin "4"
+			(uuid "fe3ea0a5-258f-49c6-8ad6-a0b33e30995e")
+		)
+		(instances
+			(project ""
+				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -5399,75 +5247,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Thermistor_US")
-		(at 87.63 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "161817e2-4461-41ce-b0bb-0c96b74b259d")
-		(property "Reference" "TH1"
-			(at 81.788 159.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Thermistor_US"
-			(at 72.136 162.306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thermistor, temperature dependent resistor, US symbol"
-			(at 87.63 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f89f2e2-d024-4b0f-9bc0-2cc8c40dba6c")
-		)
-		(pin "2"
-			(uuid "cbb9b83a-0acd-4d94-a8ad-a2eaf91aea49")
-		)
-		(instances
-			(project ""
-				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
-					(reference "TH1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 113.03 72.39 0)
 		(unit 1)
@@ -5494,7 +5273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 113.9952 76.2 0)
 			(effects
 				(font
@@ -5562,7 +5341,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 132.08 47.498 90)
 			(effects
 				(font
@@ -5826,7 +5605,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 82.55 113.792 90)
 			(effects
 				(font
@@ -5896,7 +5675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 166.0652 76.2 0)
 			(effects
 				(font
@@ -6094,7 +5873,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 177.8 88.5952 0)
 			(effects
 				(font
@@ -6164,7 +5943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 235.712 124.46 90)
 			(effects
 				(font
@@ -6234,7 +6013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 251.1552 95.25 0)
 			(effects
 				(font
@@ -6271,104 +6050,6 @@
 			(project "Senior Design Power"
 				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:PMOS")
-		(at 55.88 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "510fc5a1-a8c8-40f3-a408-517db9381660")
-		(property "Reference" "Q1"
-			(at 55.88 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PMOS"
-			(at 55.88 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 68.58 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 55.88 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 73.025 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 74.93 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 71.12 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d8faef8-bec9-4fae-9c49-61ec674e641d")
-		)
-		(pin "3"
-			(uuid "4984d9d3-942c-4705-b2ad-f801afe5cb0e")
-		)
-		(pin "2"
-			(uuid "aa392b80-7039-425d-b813-e44995fcacf5")
-		)
-		(instances
-			(project ""
-				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -6450,7 +6131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "578a1bc2-2782-4492-801b-25337bbe4411")
-		(property "Reference" "Cff"
+		(property "Reference" "Cff1"
 			(at 251.46 109.2199 0)
 			(effects
 				(font
@@ -6468,7 +6149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 248.6152 114.3 0)
 			(effects
 				(font
@@ -6504,7 +6185,7 @@
 		(instances
 			(project "Senior Design Power"
 				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
-					(reference "Cff")
+					(reference "Cff1")
 					(unit 1)
 				)
 			)
@@ -6602,7 +6283,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 214.9348 96.52 0)
 			(effects
 				(font
@@ -6710,106 +6391,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 186.69 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "635a677c-3f5f-4ec6-9e80-1b7b5494b191")
-		(property "Reference" "Q4"
-			(at 193.04 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 193.04 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 186.69 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 186.69 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 186.69 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 186.69 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 186.69 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "429a6c9e-9847-4aa1-b91c-fa883666f47c")
-		)
-		(pin "1"
-			(uuid "533a325a-1a1c-4404-bcfa-f806c06e7f65")
-		)
-		(pin "3"
-			(uuid "5c58aace-d431-4947-a2d9-e2ec8d385f7b")
-		)
-		(instances
-			(project ""
-				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 93.98 106.68 0)
 		(unit 1)
@@ -6884,7 +6465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a662af2-e9d1-445a-9485-f0a5f6feeed2")
-		(property "Reference" "RSR"
+		(property "Reference" "RSR1"
 			(at 227.33 81.28 90)
 			(effects
 				(font
@@ -6900,7 +6481,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 227.33 89.408 90)
 			(effects
 				(font
@@ -6936,7 +6517,7 @@
 		(instances
 			(project ""
 				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
-					(reference "RSR")
+					(reference "RSR1")
 					(unit 1)
 				)
 			)
@@ -6967,7 +6548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 82.55 129.032 90)
 			(effects
 				(font
@@ -7101,7 +6682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 95.25 115.57 0)
 			(effects
 				(font
@@ -7180,7 +6761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 98.552 161.29 90)
 			(effects
 				(font
@@ -7249,7 +6830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 68.2752 66.04 0)
 			(effects
 				(font
@@ -7286,106 +6867,6 @@
 			(project ""
 				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 186.69 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c5b012d-75d8-4d8a-a7f2-b253091a298d")
-		(property "Reference" "Q5"
-			(at 193.04 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 193.04 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 186.69 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 186.69 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 186.69 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 186.69 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 186.69 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2cb74aa9-9049-4e98-82c3-91bb9496208e")
-		)
-		(pin "3"
-			(uuid "65a99472-3314-46e9-ac11-8a91159830a6")
-		)
-		(pin "1"
-			(uuid "30f588b8-efe8-4e9a-b230-59a82e871d93")
-		)
-		(instances
-			(project ""
-				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -7452,6 +6933,88 @@
 			(project ""
 				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BUK9M85-60EX")
+		(at 186.69 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8db81a9c-e6df-49ce-84ec-5d7e556e9a4b")
+		(property "Reference" "Q3"
+			(at 193.04 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BUK9M85-60EX"
+			(at 193.04 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:LFPAK33"
+			(at 191.77 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BUK9M85-60E.pdf"
+			(at 191.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "12.8A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 73mOhm Ron, 4.4nC Qqd, -55 to 175 °C, LFPAK33"
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "286978a0-266e-4114-a3fa-bab88d34b012")
+		)
+		(pin "1"
+			(uuid "9297fb0e-725b-43bc-8403-00a8b949ee12")
+		)
+		(pin "2"
+			(uuid "f1abdc0c-3651-4ee8-8b0b-c4c455448470")
+		)
+		(pin "3"
+			(uuid "4ad46575-4eb1-4093-865e-252caf304d71")
+		)
+		(pin "4"
+			(uuid "02a02df4-d111-4732-a48f-b540dcc724a0")
+		)
+		(instances
+			(project ""
+				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -7617,7 +7180,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 223.2152 63.5 0)
 			(effects
 				(font
@@ -7749,7 +7312,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 231.14 93.0148 0)
 			(effects
 				(font
@@ -7801,7 +7364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cd7eba6-b5aa-4ae5-a368-e500f3cf71c6")
-		(property "Reference" "CTTC"
+		(property "Reference" "CTTC1"
 			(at 163.83 126.9999 0)
 			(effects
 				(font
@@ -7819,7 +7382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 160.9852 132.08 0)
 			(effects
 				(font
@@ -7855,7 +7418,7 @@
 		(instances
 			(project "Senior Design Power"
 				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
-					(reference "CTTC")
+					(reference "CTTC1")
 					(unit 1)
 				)
 			)
@@ -7871,7 +7434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d9aa602-ab48-456c-ba23-f8449f73d6b7")
-		(property "Reference" "RAC"
+		(property "Reference" "RAC1"
 			(at 121.92 49.53 90)
 			(effects
 				(font
@@ -7887,7 +7450,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 121.92 54.102 90)
 			(effects
 				(font
@@ -7923,7 +7486,7 @@
 		(instances
 			(project ""
 				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
-					(reference "RAC")
+					(reference "RAC1")
 					(unit 1)
 				)
 			)
@@ -7955,7 +7518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 95.25 130.81 0)
 			(effects
 				(font
@@ -8007,6 +7570,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:Si7617DN")
+		(at 55.88 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a68e5cad-26aa-4b18-9bb8-9fbfef06f83f")
+		(property "Reference" "Q1"
+			(at 55.88 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Si7617DN"
+			(at 55.88 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:Vishay_PowerPAK_1212-8_Single"
+			(at 57.785 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/65164/si7617dn.pdf"
+			(at 59.69 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-35A Id, -30V Vds, 0.0123 Ohm Ron, PowerPAK-8"
+			(at 55.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99b010d9-1cf3-446b-b8ce-aee94b106411")
+		)
+		(pin "2"
+			(uuid "77a223dd-5fe3-4d67-bd39-f38a330c1132")
+		)
+		(pin "3"
+			(uuid "7216c062-9811-4859-a588-fd56567b7582")
+		)
+		(pin "5"
+			(uuid "19db5dec-98b8-40b4-b2d5-354600098441")
+		)
+		(pin "4"
+			(uuid "8fd52921-d975-40df-8c48-1decbc6da4b9")
+		)
+		(instances
+			(project ""
+				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 40.64 62.23 0)
 		(unit 1)
@@ -8034,7 +7677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 38.862 62.23 90)
 			(effects
 				(font
@@ -8104,7 +7747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 115.062 147.32 90)
 			(effects
 				(font
@@ -8239,7 +7882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 172.4152 63.5 0)
 			(effects
 				(font
@@ -8309,7 +7952,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 129.2352 151.13 0)
 			(effects
 				(font
@@ -8352,6 +7995,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BAT54J")
+		(at 162.56 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b71df72a-6574-404f-8506-0863da092746")
+		(property "Reference" "D1"
+			(at 165.1 89.8524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54J"
+			(at 165.1 92.3924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
+			(at 158.115 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
+			(at 162.56 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V 200mA Schottky diode, SOD-323F"
+			(at 162.56 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e67a9f5a-c9e0-4fa8-9848-a90aaec2d368")
+		)
+		(pin "2"
+			(uuid "56d8ee0f-3751-4a3a-bf88-f6fec0d19ab5")
+		)
+		(instances
+			(project ""
+				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 40.64 71.12 0)
 		(unit 1)
@@ -8379,7 +8092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 41.6052 74.93 0)
 			(effects
 				(font
@@ -8449,7 +8162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 111.4552 107.95 0)
 			(effects
 				(font
@@ -8519,7 +8232,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 99.822 82.55 90)
 			(effects
 				(font
@@ -8654,7 +8367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 99.822 97.79 90)
 			(effects
 				(font
@@ -8847,7 +8560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cab29f4d-b136-4aeb-9b44-28b1366353f1")
-		(property "Reference" "R6"
+		(property "Reference" "R4"
 			(at 96.52 96.5199 0)
 			(effects
 				(font
@@ -8865,7 +8578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 92.202 97.79 90)
 			(effects
 				(font
@@ -8901,7 +8614,7 @@
 		(instances
 			(project "Senior Design Power"
 				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
-					(reference "R6")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9001,7 +8714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 98.552 147.32 90)
 			(effects
 				(font
@@ -9071,7 +8784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 235.712 110.49 90)
 			(effects
 				(font
@@ -9141,7 +8854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 163.5252 107.95 0)
 			(effects
 				(font
@@ -9211,7 +8924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 92.202 82.55 90)
 			(effects
 				(font
@@ -9279,7 +8992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 95.25 123.19 0)
 			(effects
 				(font
@@ -9398,72 +9111,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3aa77e3-18fe-4943-91c9-4e7a98aebee6")
-		(property "Reference" "#PWR021"
-			(at 87.63 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a9516109-b79b-435e-b1cd-732eceb03600")
-		)
-		(instances
-			(project ""
-				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 29.21 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9556,7 +9203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 62.992 72.39 90)
 			(effects
 				(font
