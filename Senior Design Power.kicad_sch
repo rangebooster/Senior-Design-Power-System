@@ -556,6 +556,330 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "D1 Senior Design:ZLLS350TA"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CR"
+				(at 5.08 4.445 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "ZLLS350TA"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "DIODE_SOD-523_DIO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "ZLLS350TA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ZLLS350TA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIODE_SOD-523_DIO DIODE_SOD-523_DIO-M DIODE_SOD-523_DIO-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ZLLS350TA_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.905) (xy 3.81 -1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.905) (xy 6.35 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 3.81 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -1.905) (xy 6.35 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ZLLS350TA_1_2"
+				(polyline
+					(pts
+						(xy -1.905 3.81) (xy 1.905 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy -1.905 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 0 7.62)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 6.35) (xy -1.905 6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 3.81) (xy 0 6.35)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1147,156 +1471,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Diode:BAT54J"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BAT54J"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-323F"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "30V 200mA Schottky diode, SOD-323F"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?323F*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BAT54J_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BAT54J_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2524,12 +2698,6 @@
 		(uuid "3d3b4164-ca50-44d0-a50c-833727a1978e")
 	)
 	(junction
-		(at 162.56 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f97cc72-728c-477f-8a72-e96c60b26401")
-	)
-	(junction
 		(at 189.23 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2554,10 +2722,10 @@
 		(uuid "4676998d-7850-4ccd-a99a-c0ea008972a1")
 	)
 	(junction
-		(at 162.56 87.63)
+		(at 165.1 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5b57efd3-6f6d-4bc0-ad91-499d611c4526")
+		(uuid "5bc52dc7-3b0b-434d-bc17-1cad330c34dd")
 	)
 	(junction
 		(at 171.45 55.88)
@@ -2582,6 +2750,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ec7143c-c8ab-4d0e-8bc0-29eb8a6201d5")
+	)
+	(junction
+		(at 162.56 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7363231e-057a-447d-8622-3a6b25c7af46")
 	)
 	(junction
 		(at 64.77 66.04)
@@ -2787,6 +2961,26 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 87.63) (xy 170.18 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0638e2e6-9324-4871-a951-ced49f3c806a")
+	)
+	(wire
+		(pts
+			(xy 170.18 86.36) (xy 165.1 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a5abed-64c1-4917-a4fb-2c2a24aca85c")
+	)
+	(wire
+		(pts
 			(xy 237.49 87.63) (xy 237.49 104.14)
 		)
 		(stroke
@@ -2794,6 +2988,16 @@
 			(type default)
 		)
 		(uuid "079b05f4-8ba3-418b-8369-51ab245b002c")
+	)
+	(wire
+		(pts
+			(xy 162.56 96.52) (xy 165.1 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c5bca5b-ca73-4137-a4f4-23d1f6e8152e")
 	)
 	(wire
 		(pts
@@ -3057,16 +3261,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 95.25) (xy 162.56 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2faadd99-2fc8-4207-9553-9d0579a44236")
-	)
-	(wire
-		(pts
 			(xy 93.98 101.6) (xy 93.98 104.14)
 		)
 		(stroke
@@ -3217,6 +3411,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 86.36) (xy 165.1 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b3d9ce-bee1-4b8d-a373-1101166abb48")
+	)
+	(wire
+		(pts
 			(xy 62.23 66.04) (xy 64.77 66.04)
 		)
 		(stroke
@@ -3284,6 +3488,16 @@
 			(type default)
 		)
 		(uuid "506ed6b1-d91d-426a-95dc-510335af4fa8")
+	)
+	(wire
+		(pts
+			(xy 154.94 95.25) (xy 157.48 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51a5f19a-66b4-4fb7-b515-3bad6f7e0906")
 	)
 	(wire
 		(pts
@@ -3557,6 +3771,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 96.52) (xy 162.56 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e8ca6b-6721-41e0-bd1e-0e04ce68f591")
+	)
+	(wire
+		(pts
 			(xy 127 64.77) (xy 127 55.88)
 		)
 		(stroke
@@ -3687,6 +3911,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 87.63) (xy 158.75 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8981daab-fe9c-48c5-9cac-379dbcac7e1e")
+	)
+	(wire
+		(pts
 			(xy 247.65 106.68) (xy 247.65 104.14)
 		)
 		(stroke
@@ -3704,16 +3938,6 @@
 			(type default)
 		)
 		(uuid "8ace5d18-26dd-4a2f-b67b-3374a3baa7eb")
-	)
-	(wire
-		(pts
-			(xy 162.56 87.63) (xy 177.8 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c5f9e4e-c117-47fe-92e8-b96a77adde48")
 	)
 	(wire
 		(pts
@@ -3987,6 +4211,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 96.52) (xy 162.56 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb369fcd-2f0e-4e10-b7fc-d9af8194f1a4")
+	)
+	(wire
+		(pts
 			(xy 64.77 45.72) (xy 128.27 45.72)
 		)
 		(stroke
@@ -4027,6 +4261,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 87.63) (xy 158.75 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c21daa4d-522c-4c80-af7b-6a8dfa9e3717")
+	)
+	(wire
+		(pts
 			(xy 55.88 66.04) (xy 55.88 63.5)
 		)
 		(stroke
@@ -4054,16 +4298,6 @@
 			(type default)
 		)
 		(uuid "c48628e2-c169-4e1d-ab41-be9e96c93018")
-	)
-	(wire
-		(pts
-			(xy 154.94 87.63) (xy 162.56 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4d10ab1-9645-40f5-9934-e991b2b9491a")
 	)
 	(wire
 		(pts
@@ -4137,6 +4371,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 95.25) (xy 157.48 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cddf7869-33cd-4f51-ae8a-14c612f33fc7")
+	)
+	(wire
+		(pts
 			(xy 64.77 55.88) (xy 64.77 45.72)
 		)
 		(stroke
@@ -4184,16 +4428,6 @@
 			(type default)
 		)
 		(uuid "d507eb1d-4073-4fb0-ae8c-73f87bb4e3c4")
-	)
-	(wire
-		(pts
-			(xy 162.56 95.25) (xy 162.56 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6a8a5b3-07a6-4f4e-814a-bb082dd75b56")
 	)
 	(wire
 		(pts
@@ -4394,6 +4628,16 @@
 			(type default)
 		)
 		(uuid "fc535db1-fb69-416a-85ba-3a0c70d35abd")
+	)
+	(wire
+		(pts
+			(xy 177.8 87.63) (xy 170.18 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc9c145d-ca50-4b2e-8430-e9885c893cc2")
 	)
 	(wire
 		(pts
@@ -4858,7 +5102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Neosid_SM-PIC0512H"
+		(property "Footprint" "L1 Senior Design:IND_IHLP-5050CE_VIS"
 			(at 204.47 87.63 0)
 			(effects
 				(font
@@ -6957,7 +7201,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BUK9M85-60EX"
+		(property "Value" "FDS8447"
 			(at 193.04 80.0099 0)
 			(effects
 				(font
@@ -6977,7 +7221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BUK9M85-60E.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fds8447-d.pdf"
 			(at 191.77 82.55 0)
 			(effects
 				(font
@@ -6987,7 +7231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "12.8A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 73mOhm Ron, 4.4nC Qqd, -55 to 175 °C, LFPAK33"
+		(property "Description" "12.8A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 10.5mOhm Ron, 7nC Qqd, -55 to 150 °C, LFPAK33"
 			(at 186.69 78.74 0)
 			(effects
 				(font
@@ -7995,8 +8239,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BAT54J")
-		(at 162.56 91.44 270)
+		(lib_id "D1 Senior Design:ZLLS350TA")
+		(at 165.1 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8005,43 +8249,45 @@
 		(fields_autoplaced yes)
 		(uuid "b71df72a-6574-404f-8506-0863da092746")
 		(property "Reference" "D1"
-			(at 165.1 89.8524 90)
+			(at 168.91 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "BAT54J"
-			(at 165.1 92.3924 90)
+			(at 168.91 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323F"
-			(at 158.115 91.44 0)
+		(property "Footprint" "DIODE_SOD-523_DIO"
+			(at 165.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
-			(at 162.56 91.44 0)
+		(property "Datasheet" "ZLLS350TA"
+			(at 165.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" "30V 200mA Schottky diode, SOD-323F"
-			(at 162.56 91.44 0)
+			(at 165.1 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
