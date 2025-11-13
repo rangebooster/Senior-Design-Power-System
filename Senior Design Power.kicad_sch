@@ -1488,15 +1488,18 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:BUK9M85-60EX"
-			(pin_names
+		(symbol "Simulation_SPICE:NMOS"
+			(pin_numbers
 				(hide yes)
+			)
+			(pin_names
+				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+				(at 5.08 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1504,8 +1507,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BUK9M85-60EX"
-				(at 5.08 0 0)
+			(property "Value" "NMOS"
+				(at 5.08 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1513,28 +1516,25 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:LFPAK33"
-				(at 5.08 -1.905 0)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BUK9M85-60E.pdf"
-				(at 5.08 -3.81 0)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "12.8A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 73mOhm Ron, 4.4nC Qqd, -55 to 175 °C, LFPAK33"
+			(property "Description" "N-MOSFET transistor, drain/source/gate"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1543,7 +1543,34 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Power MOSFET N-MOS"
+			(property "Sim.Device" "NMOS"
+				(at 0 -17.145 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "VDMOS"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=D 2=G 3=S"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1552,16 +1579,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "LFPAK33*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BUK9M85-60EX_0_1"
+			(symbol "NMOS_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1728,8 +1746,8 @@
 					)
 				)
 			)
-			(symbol "BUK9M85-60EX_1_1"
-				(pin passive line
+			(symbol "NMOS_1_1"
+				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "G"
@@ -1739,7 +1757,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1757,24 +1775,6 @@
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "1"
 						(effects
 							(font
@@ -1786,26 +1786,6 @@
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
-					(hide yes)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
 					(name "S"
 						(effects
 							(font
@@ -5279,88 +5259,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BUK9M85-60EX")
-		(at 186.69 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "123bfd9e-38b7-49ff-b970-911b70c5925a")
-		(property "Reference" "Q4"
-			(at 193.04 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BUK9M85-60EX"
-			(at 193.04 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:LFPAK33"
-			(at 191.77 99.695 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BUK9M85-60E.pdf"
-			(at 191.77 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "12.8A Id, 60V Vds, N-Channel TrenchMOS MOSFET, 73mOhm Ron, 4.4nC Qqd, -55 to 175 °C, LFPAK33"
-			(at 186.69 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fae10f8a-3a76-4b05-b8dd-e6e809e0edac")
-		)
-		(pin "2"
-			(uuid "fe06b342-0cfd-4edb-88aa-88d57e2dd0c1")
-		)
-		(pin "3"
-			(uuid "c045aa2e-cafd-4668-a250-da5ae94817be")
-		)
-		(pin "5"
-			(uuid "0826d471-b718-44ca-9c85-b5b6e83ef10f")
-		)
-		(pin "4"
-			(uuid "fe3ea0a5-258f-49c6-8ad6-a0b33e30995e")
-		)
-		(instances
-			(project ""
-				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 165.1 76.2 0)
 		(unit 1)
@@ -6978,6 +6876,174 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 186.69 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84482bf1-1ec2-44d2-bf8b-f2d766fd35e2")
+		(property "Reference" "Q4"
+			(at 193.04 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SIS412DN"
+			(at 193.04 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Q3/4 Senior Design:POWERPAK_1212-8"
+			(at 191.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/69006/sis412dn_new.pdf"
+			(at 186.69 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 186.69 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 186.69 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 186.69 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb76d274-0031-4b29-939a-edd5299d1af9")
+		)
+		(pin "1"
+			(uuid "ad15bbb7-7ce4-4a0c-b256-75a06f281edc")
+		)
+		(pin "3"
+			(uuid "1fadce83-7600-48d9-9dac-9c5c96a2b580")
+		)
+		(instances
+			(project "Senior Design Power"
+				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 133.35 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86149a06-78a1-4974-9d0b-daf207ac8ac4")
+		(property "Reference" "C17"
+			(at 133.35 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 133.35 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 61.2648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 133.35 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0851ad28-6152-4fb6-b176-82244f9d4f86")
+		)
+		(pin "2"
+			(uuid "d0d34108-0093-416a-bba8-3ee502507d26")
+		)
+		(instances
+			(project ""
+				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 100.33 161.29 0)
 		(unit 1)
@@ -7057,7 +7123,7 @@
 		(dnp no)
 		(uuid "8bff0afb-5b33-446e-ac2e-3029566425cb")
 		(property "Reference" "C14"
-			(at 76.708 63.5 0)
+			(at 75.692 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7066,7 +7132,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 76.2 65.786 0)
+			(at 75.438 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7177,88 +7243,6 @@
 			(project ""
 				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BUK9M85-60EX")
-		(at 186.69 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8db81a9c-e6df-49ce-84ec-5d7e556e9a4b")
-		(property "Reference" "Q3"
-			(at 193.04 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FDS8447"
-			(at 193.04 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:LFPAK33"
-			(at 191.77 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/fds8447-d.pdf"
-			(at 191.77 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "12.8A Id, 40V Vds, N-Channel TrenchMOS MOSFET, 10.5mOhm Ron, 7nC Qqd, -55 to 150 °C, LFPAK33"
-			(at 186.69 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "286978a0-266e-4114-a3fa-bab88d34b012")
-		)
-		(pin "1"
-			(uuid "9297fb0e-725b-43bc-8403-00a8b949ee12")
-		)
-		(pin "2"
-			(uuid "f1abdc0c-3651-4ee8-8b0b-c4c455448470")
-		)
-		(pin "3"
-			(uuid "4ad46575-4eb1-4093-865e-252caf304d71")
-		)
-		(pin "4"
-			(uuid "02a02df4-d111-4732-a48f-b540dcc724a0")
-		)
-		(instances
-			(project ""
-				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -7599,6 +7583,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 186.69 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98e1c1c6-59b1-48c4-8c72-5ff5baa627a6")
+		(property "Reference" "Q3"
+			(at 193.04 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SIS412DN"
+			(at 193.04 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Q3/4 Senior Design:POWERPAK_1212-8"
+			(at 191.77 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/69006/sis412dn_new.pdf"
+			(at 186.69 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 186.69 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 186.69 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 186.69 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "85c9438c-9443-4d3b-931d-c8762e8380ce")
+		)
+		(pin "1"
+			(uuid "875a8596-811f-416c-b92a-a61211a5e7cb")
+		)
+		(pin "3"
+			(uuid "46971aae-1206-4ff9-a6d7-a44aa738e7c3")
+		)
+		(instances
+			(project ""
+				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 160.02 128.27 0)
 		(unit 1)
@@ -7731,6 +7815,73 @@
 			(project ""
 				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
 					(reference "RAC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 91.44 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a041ff27-66a2-4cc8-bad7-b8ed290d4974")
+		(property "Reference" "C15"
+			(at 91.44 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 91.44 59.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 62.5348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 91.44 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e9a6da9-0a73-49e5-8d1b-55b981e769a6")
+		)
+		(pin "2"
+			(uuid "48607092-640a-4591-8b6b-b0f81a1756ed")
+		)
+		(instances
+			(project ""
+				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
+					(reference "C15")
 					(unit 1)
 				)
 			)
