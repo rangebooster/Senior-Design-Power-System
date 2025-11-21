@@ -4391,6 +4391,12 @@
 		(uuid "14fe0f5a-83d9-4fcd-8128-a815206d1363")
 	)
 	(junction
+		(at 41.91 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16ec9f82-0057-437b-9ab5-479c2ba719e6")
+	)
+	(junction
 		(at 45.72 356.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4703,12 +4709,6 @@
 		(uuid "b0373fc6-38f9-499b-8478-210609e2424d")
 	)
 	(junction
-		(at 41.91 238.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b045cb65-b9b6-40f0-9e7d-33dac94e4811")
-	)
-	(junction
 		(at 34.29 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4833,6 +4833,15 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fac53d3b-692e-4a2b-bdbe-17066bd8b049")
+	)
+	(bus_entry
+		(at 189.23 30.48)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ee7e7b-730f-4cc7-927b-e09a0a85ca84")
 	)
 	(wire
 		(pts
@@ -5023,6 +5032,16 @@
 			(type default)
 		)
 		(uuid "108d3b05-dfeb-4c83-b7d2-182fa2d2f26a")
+	)
+	(wire
+		(pts
+			(xy 41.91 238.76) (xy 50.8 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10cdc0c6-468d-4b68-a56c-9045ed09641b")
 	)
 	(wire
 		(pts
@@ -5606,7 +5625,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 238.76) (xy 50.8 238.76)
+			(xy 31.75 238.76) (xy 41.91 238.76)
 		)
 		(stroke
 			(width 0)
@@ -7726,16 +7745,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 238.76) (xy 41.91 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de494978-4ec1-485d-9093-a0864376bd51")
-	)
-	(wire
-		(pts
 			(xy 144.78 232.41) (xy 144.78 224.79)
 		)
 		(stroke
@@ -9690,6 +9699,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 41.91 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05b84e4e-6167-4f30-bdc2-5ffd253b0c7b")
+		(property "Reference" "CTTC1"
+			(at 45.72 241.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.11"
+			(at 45.72 243.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 42.8752 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 41.91 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a6ed28e-df41-4adc-862e-51cae39e7960")
+		)
+		(pin "1"
+			(uuid "3457a6c2-30d4-438f-9002-f6d96ca6e8e0")
+		)
+		(instances
+			(project ""
+				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
+					(reference "CTTC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:Si7617DN")
 		(at 73.66 58.42 270)
 		(mirror x)
@@ -10105,15 +10184,15 @@
 	(symbol
 		(lib_id "Transistor_FET:TP0610L")
 		(at 43.18 331.47 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "17053807-4945-4de2-bddd-de66cfac0fff")
 		(property "Reference" "Q6"
-			(at 49.53 330.1999 0)
+			(at 49.53 332.7401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10121,8 +10200,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TP0610L"
-			(at 49.53 332.7399 0)
+		(property "Value" "TP0610K"
+			(at 49.53 330.2001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10131,7 +10210,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline"
-			(at 48.26 333.375 0)
+			(at 48.26 329.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10142,7 +10221,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/70209/70209.pdf"
-			(at 48.26 335.28 0)
+			(at 48.26 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13563,7 +13642,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "50k"
 			(at 76.2 270.5099 0)
 			(effects
 				(font
@@ -13799,7 +13878,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "430k"
 			(at 102.87 162.5599 0)
 			(effects
 				(font
@@ -15024,7 +15103,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22.1k"
+		(property "Value" "75k"
 			(at 76.2 289.5599 0)
 			(effects
 				(font
@@ -16699,7 +16778,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "25k"
 			(at 113.03 289.5599 0)
 			(effects
 				(font
@@ -16893,6 +16972,7 @@
 	(symbol
 		(lib_id "Transistor_FET:TP0610L")
 		(at 12.7 331.47 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16900,7 +16980,7 @@
 		(dnp no)
 		(uuid "ba836e5c-ad6c-4980-b3b7-8b0edc4ea148")
 		(property "Reference" "Q5"
-			(at 4.318 325.12 0)
+			(at 5.08 325.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16908,8 +16988,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TP0610L"
-			(at 4.318 327.66 0)
+		(property "Value" "TP0610K"
+			(at 4.318 327.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16918,7 +16998,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92L_Inline"
-			(at 17.78 333.375 0)
+			(at 17.78 329.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16929,7 +17009,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/70209/70209.pdf"
-			(at 17.78 335.28 0)
+			(at 17.78 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17243,76 +17323,6 @@
 			(project ""
 				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
 					(reference "Q9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 41.91 242.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0971aa0-a713-4678-8997-9c8596cdbab2")
-		(property "Reference" "C22"
-			(at 45.72 241.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uf"
-			(at 45.72 243.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 42.8752 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 41.91 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "daa339e6-5846-41b1-93a0-24c82b375bf1")
-		)
-		(pin "1"
-			(uuid "38401d2f-bce8-4e12-ace2-5036d93af9f4")
-		)
-		(instances
-			(project "Senior Design Power"
-				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
-					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -18158,7 +18168,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "9.31k"
 			(at 102.87 148.5899 0)
 			(effects
 				(font
@@ -19276,7 +19286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f476504f-e231-4947-b033-b89d2dc83ac8")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 26.67 220.98 0)
 			(effects
 				(font
@@ -19331,7 +19341,7 @@
 		(instances
 			(project ""
 				(path "/1b03766d-ecb9-4ef9-8b6d-907ca2bc5b89"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
