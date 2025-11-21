@@ -1,0 +1,56 @@
+﻿Value,Designator,Description,Qty,Footprint,Part Number (JLC),Part Number (Mfr),Mfr,Datasheet
+0.1u,"C1,C2,C3,C6,C11","Capacitor, Ceramic, 16V, X7R, 10% ",5,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C1590,CL10B104KA8NNNC,Samsung Electro-Mechanics ,~
+1u,C4,"Capacitor, Ceramic, 16V, X7R, 20%",1,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C577039,CC0805MKX7R7BB105,YAGEO,
+1u,C7,"Capacitor, Ceramic, 50V, X5R, 20%",1,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,C1848,CL31B105KBHNNNE,Samsung Electro-Mechanics,
+1u,C5,"Capacitor, Ceramic, 16V, X7R, 20% ",1,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C577039,CC0805MKX7R7BB105,YAGEO ,
+1u,C26,"Capacitor, Ceramic, 50V, X5R, 20%",1,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,C1848,CL31B105KBHNNNE,Samsung Electro-Mechanics,~
+10u,"C8,C9,C12,C13,C25","Capacitor, Ceramic, 50V, Y5V,
+-20/+80%",5,Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder,C1021609,FS43X106K500EGG,PSA(Prosperity Dielectrics),~
+0.1u,"C10,C17","Capacitor, Ceramic, 50V, X7R, 10%",2,Capacitor_SMD:C_0603_1608Metric,C1591,CL10B104KB8NNNC,Samsung Electro-Mechanics,~
+0.1u,C14,"Capacitor, Ceramic, 50V, X7R, 10%",1,Capacitor_SMD:C_0603_1608Metric,C1591,CL10B104KB8NNNC,Samsung Electro-Mechanics ,
+0.1u,C15,"Capacitor, Ceramic, 50V, X7R, 10% ",1,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C1711,CL21B104KBCNNNC,Samsung Electro-Mechanics ,~
+0.1u,C29,"Capacitor, Ceramic, 50V, X7R, 10%",1,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C1591,CL10B104KB8NNNC,Samsung Electro-Mechanics ,
+2.2u,"C16,C24","Capacitor, Ceramic, 50V, X7R, 20% ",2,Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,C39619,1206B225K500NT,FH (Guangdong Fenghua Advanced Tech),~
+0.1uf,"C18,C19,C20,C23, CTTC1","Capacitor, Ceramic, 16V, X7R, 10%",5,Capacitor_SMD:C_0603_1608Metric,C1591,CL10B104KB8NNNC,Samsung Electro-Mechanics,~
+1.0uf,C21,"Capacitor, Ceramic, 16V, X7R, 20%",1,Capacitor_SMD:C_0805_2012Metric,C24123,CL21B105KOFNNNE,Samsung Electro-Mechanics,~
+10u,"C27,C28","Capacitor, Ceramic, 50V, Y5V,
+-20/+80%",2,Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder,C1021609,FS43X106K500EGG,PSA(Prosperity Dielectrics),~
+22p,"Cff1,Cff2","Capacitor, Ceramic, 50V, X7R, 10%",2,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C561821,C0603C220K5RAC7867,KEMET,~
+BAT54J,D1,"Diode, Schottky, 1.16A, 40-V",1,DIODE_SOD-523_DIO,C151633,ZLLS1000TA,Diodes Incorporated,
+"Schottky - 1A, 40V",D2,"Diode, Schottky, 1A, 40V",1,DO-214AC,C5120165,ACDBA140-HF,Comchip,
+LED,"D5,D6,D7,D8,D9,D10","Diode, LED, Green, 2.1V, 20mA, 6mcd",6,LED_SMD:LED_0603_1608Metric,C126319,SML-E12P8WT86,ROHM Semicon,~
+Screw_Terminal_01x02,J1,"Terminal Block, 2 pin, 15A, 5.1mm",1,,C474906,KF127-5.08-2P,Cixi Kefa Elec,
+Screw_Terminal_01x03,J2,"Terminal Block, 3 pin, 13.5A, 3.5mm",1,,C91152,1751251,Phoenix Contact,~
+Screw_Terminal_01x04,"J3,J4","Terminal Block, 4 pin, 6A, 3.5mm",2,,C99845,1751264,Phoenix Contact,~
+Screw_Terminal_01x04,J5,"Terminal Block, 4 pin, 15A, 5.1mm",1,,C22450485,XY128V-A-5.08-4P,Ningbo Xinlaiya Elec.,
+Jumper_3_Open,"JP1,JP3","Header, 3 pin, 100mil spacing,",2,,C49257,C49257,BOOMELE(Boom Precision Elec),~
+Jumper_2_Open,"JP2,JP4,JP5","Header, 2 pin, 100mil spacing,",3,,C265429,C265429,JST,~
+4.7u,L1,"Inductor, SMT, 9A, 19.8milliohm",1,"SMD,11.5x10mm",C167230,FXL1040-4R7-M,cjiang (Changjiang Microelectronics Tech),~
+Si7617DN,"Q1,Q2","MOSFET, PChan, -40V, -18A,
+9.2millohm",2,Vishay_PowerPAK_1212-8_Single,C727607,SI7617DN-T1-GE3,Vishay Siliconix,
+SIS412DN,"Q3,Q4","MOSFET, NChan, 40V, 50A, 4.5
+millohm",2,POWERPAK_1212-8,C111309,SIS412DN-T1-GE3,Vishay Siliconix,
+TP0610K,"Q5,Q6","-55℃~+150℃ 1 P-Channel 1.7nC@15V 185mA 23pF@25V 350mW 5pF@25V 60V 6Ω@10V,500mA SOT-23 MOSFETs ROHS",2,SOT-23_TP01,C74714,TP0610K-T1-E3,Vishay Siliconix,
+2N7002,"Q7,Q8,Q9",1 N-Channel 115mA 2.5V 225mW 50pF 5pF 5Ω@10V 60V SOT-23 MOSFETs ROHS,3,SOT-23,C8545,2N7002,"Jiangsu Changjing Electronics Technology Co., Ltd.",
+10k,R1,"Resistor, Chip, 1/10W, 1%",1,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C189482,AR05BTC1002,Viking Tech,~
+107k,R2,"Resistor, Chip, 1/10W, 1%",1,R_0805_2012Metric,C17412,0805W8F1073T5E,UNI-ROYAL(Uniroyal Elec),~
+32.4k,R3,"Resistor, Chip, 1/10W, 1%",1,R_0805_2012Metric,C36938,0805W8F3242T5E,UNI-ROYAL(Uniroyal Elec),~
+100k,"R4,R7,R8,R15,R19,R23,R25,R26","Resistor, Chip, 1/10W, 1%",8,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,C25611,0805W8J0104T5E,UNI-ROYAL(Uniroyal Elec),~
+10k,"R5,R27","Resistor, Chip, 1/16W, 1%",2,R_0603_1608Metric,C25804,0603WAF1002T5E,UNI-ROYAL(Uniroyal Elec),~
+10k,R22,"Resistor, Chip, 1/2W, 1%",1,R_0805_2012Metric,C543567,ERJP06F1002V,PANASONIC,
+2.21k,"R6,R24,R28,R29,R30,R31","Resistor, Chip, 1/16W, 1%",6,R_0603_1608Metric,C15401,0603WAJ0103T5E,UNI-ROYAL(Uniroyal Elec),~
+9.31k,R9,"Resistor, Chip, 1/16W, 1%",1,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,C25880,0402WGF2211TCE,UNI-ROYAL(Uniroyal Elec),
+430k,R10,"Resistor, Chip, 1/16W, 1%",1,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,C25560,0402WGJ0434TCE,UNI-ROYAL(Uniroyal Elec),~
+0,R11,"Resistor, Chip, 1/16W, 1%",1,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,C17168,0402WGF0000TCE,UNI-ROYAL(Uniroyal Elec),~
+1k,R12,"Resistor, Chip, 1/16W, 1%",1,R_0402_1005Metric,C11702,0402WGF1001TCE,UNI-ROYAL(Uniroyal Elec),~
+0,"R13,R33,R34,R36","Resistor, Chip, 1/16W, 1%",4,R_0603_1608Metric,C21189,0603WAF0000T5E,UNI-ROYAL(Uniroyal Elec),~
+100k,R14,"Resistor, Chip, 1/16W, 1%",2,R_0603_1608Metric,C25803,0603WAF1003T5E,UNI-ROYAL(Uniroyal Elec),~
+100k,R16,"Resistor, Chip, 1/16W, 1%",2,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,C25741,0402WGF1003TCE,UNI-ROYAL(Uniroyal Elec),~
+10,R17,"Resistor, Chip, 1/4W, 1%",1,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,C17903,1206W4F100JT5E,UNI-ROYAL(Uniroyal Elec),~
+1k,R18,"Resistor, Chip, 1/16W, 1%",1,R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,C11702,0402WGF1001TCE,UNI-ROYAL(Uniroyal Elec),~
+2,"R20,R32","Resistor, Chip, 1/8W, 5%",2,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,C17942,1206W4F200KT5E,UNI-ROYAL(Uniroyal Elec),~
+22.1k,R21,"Resistor, Chip, 1/16W, 1% ",1,R_0805_2012Metric,C17552,0805W8F2212T5E,UNI-ROYAL(Uniroyal Elec),~
+10,R35,"Resistor, Chip, 1/16W, 1%",1,R_0603_1608Metric,C22859,0603WAF100JT5E,UNI-ROYAL(Uniroyal Elec),~
+0.01,RAC1,"Resistor, Chip, 1/2W, 1%",1,R_2010_5025Metric,C146916,CR2010FR010E04Z,Ever Ohms Tech,~
+0.01,RSR1,"Resistor, Chip, 1/2W, 1%",1,R_2010_5025Metric_Pad1.40x2.65mm_HandSolder,C146916,CR2010FR010E04Z,Ever Ohms Tech,
+BQ24610,U1,Charger Controller IC,1,Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm,C19384,BQ24610RGER,Texas Instruments,
